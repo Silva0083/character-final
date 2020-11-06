@@ -29,3 +29,10 @@ td{
     max-width: 50%;
     max-height: 500px;
 }
+.biggerpls{
+    font-size: 25px;
+}
+p,{
+    text-align: justify;
+    text-justify: inter-word;
+}
