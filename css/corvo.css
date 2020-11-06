@@ -1,12 +1,31 @@
 .bg-primary{
     background-color: #000600 !important;
 }
-h1{
+h1, li, th{
     font-family: "vanHelsing", "Arvo";
 }
-p{
+p, td{
     font-family: "nexaLight";
+    font-size: 20px;
 }
-h1, p{
+h1, p, th, td{
     color: rgb(179, 179, 179);
+}
+body{
+    margin: 0;
+    background-color: #000600;
+    color: rgb(179, 179, 179);
+}
+.biggest{
+    font-size: 50px;
+}
+.softer{
+    font-weight: normal;
+}
+td{
+    width: 50%;
+}
+.smallerpls{
+    max-width: 50%;
+    max-height: 500px;
 }
