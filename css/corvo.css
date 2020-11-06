@@ -1,15 +1,15 @@
 .bg-primary{
     background-color: #000600 !important;
 }
-h1, li, th{
+h1, li, a{
     font-family: "vanHelsing", "Arvo";
 }
-p, td{
+p, td, .simple{
     font-family: "nexaLight";
     font-size: 20px;
 }
-h1, p, th, td{
-    color: rgb(179, 179, 179);
+h1, p, td, a{
+    color: rgb(179, 179, 179) !important;
 }
 body{
     margin: 0;
@@ -30,7 +30,7 @@ td{
     max-height: 500px;
 }
 .biggerpls{
-    font-size: 25px;
+    font-size: 35px;
 }
 p{
     text-align: justify;
