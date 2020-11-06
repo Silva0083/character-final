@@ -1,0 +1,12 @@
+.bg-primary{
+    background-color: #000600 !important;
+}
+h1{
+    font-family: "vanHelsing", "Arvo";
+}
+p{
+    font-family: "nexaLight";
+}
+h1, p{
+    color: rgb(179, 179, 179);
+}
