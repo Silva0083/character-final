@@ -33,6 +33,43 @@
 
 <body>
 
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Corvo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Sobre
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#origem">Origem</a>
+                  <a class="dropdown-item" href="#dis1">Dishonored</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#dis2">Dishonored 2</a>
+                </div>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#person">Personalidade</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#ally">Aliados</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#power">Poderes</a>
+              </li>
+          </ul>
+         
+        </div>
+      </nav>
+
     <!-- Jumbotron -->
     <div class="jumbotron jumbotron-fluid text-center bg-primary">
         <div class="container">
@@ -45,24 +82,24 @@
     <!-- Texto principal -->
     <main class="container bg-primary">
         <h1 class="biggest"> Sobre </h1>
-        <h1> Origem </h1>
+        <h1 id="origem"> Origem </h1>
         <p>
             Corvo nasceu em Sarkonos e quando adolescente viajou para Dunwall, a capital do Império das Ilhas. Aí
             tornou-se o Royal Protector da Imperatriz Jessamine.
         </p>
-        <h1> Dishonored </h1>
+        <h1 id="dis1"> Dishonored </h1>
         <p>
             Corvo Attano é o protagonista do primeiro jogo. O Royal Protector volta a Dunwall após procurar por uma cura
             para a praga de ratos que assombra a capital, sem sucesso. Aí vê Jessamine a ser assassinada e Emily
             raptada. Culpado por esses crimes, Corvo tem de fugir da prisão, encontrar Emily, colocá-la no trono e
             restaurar a sua honra.
         </p>
-        <h1> Dishonored 2 </h1>
+        <h1 id="dis2"> Dishonored 2 </h1>
         <p>
             No segundo jogo da série é possível jogar com o Corvo ou com Emily. Se escolhermos jogar com o Corvo o nosso
             objetivo é quebrar a maldição sobre Emily e retirar a usurpadora Delilah do trono.
         </p>
-        <h1 class="biggest mt-5"> Personalidade </h1>
+        <h1 class="biggest mt-5" id="person"> Personalidade </h1>
         <p> Corvo tem alguns traços de personalidade constantes, mas outros serão entendidos pelo jogador dependendo das
             suas ações. A sua personalidade constante pode ser retratada por estas características:</p>
 
@@ -87,8 +124,8 @@
         <div class="row">
             <div class="col-md-12 text-center mt-2">
                 <ul class="list-group list-group-horizontal">
-                    <li class="list-group-item bg-primary w-100 biggest"> Pouco Caos</li>
-                    <li class="list-group-item bg-primary w-100 biggest"> Muito Caos</li>
+                    <li class="list-group-item bg-primary w-100 biggerpls"> Pouco Caos</li>
+                    <li class="list-group-item bg-primary w-100 biggerpls"> Muito Caos</li>
                 </ul>
             </div>
         </div>
@@ -118,7 +155,7 @@
             alt="Desenho que Emily fez de Corvo, mas vê-se apenas a máscara do assasino mascarado">
 
         <br>
-        <h1 class="biggest mt-10"> Aliados </h1>
+        <h1 class="biggest mt-10" id="ally"> Aliados </h1>
         <p> Ao longo dos jogos há um grupo de aliados cujo estatuto como tal não se altera. Estes são:</p>
         <div class="row">
             <div class="col-md-12 text-center mt-2">
@@ -135,7 +172,7 @@
             jogos.
         </p>
         <br>
-        <h1 class="biggest"> Poderes </h1>
+        <h1 class="biggest" id="power"> Poderes </h1>
         <p> De modo a conseguir lutar a sua batalha e fazer uma mudança no mundo, a entidade <i>Outsider</i> deu de presente a
             Corvo a sua marca e alguns poderes sobrenaturais. Estes poderes podem ser desenvolvidos e, no segundo jogo,
             desenvolvidos em diferentes direções. Outros presentes do <i>Outsider</i> incluem runas, amuletos e o
@@ -146,19 +183,24 @@
         <!-- Butões -->
         <div class="list-group text-center">
             <a href="https://dishonored.fandom.com/wiki/Blink"
-                class="list-group-item list-group-item-action bg-primary biggerpls bg-secondary"> Blink</a>
+                class="list-group-item list-group-item-action bg-primary biggerpls bg-secondary pt-4"> Blink</a>
             <a href="https://dishonored.fandom.com/wiki/Dark_Vision"
-                class="list-group-item list-group-item-action bg-primary biggerpls bg-secondary">Dark Vision</a>
+                class="list-group-item list-group-item-action bg-primary biggerpls bg-secondary pt-4">Dark Vision</a>
             <a href="https://dishonored.fandom.com/wiki/Devouring_Swarm"
-                class="list-group-item list-group-item-action bg-primary biggerpls bg-secondary"> Devouring Swarm </a>
+                class="list-group-item list-group-item-action bg-primary biggerpls bg-secondary pt-4"> Devouring Swarm </a>
             <a href="https://dishonored.fandom.com/wiki/Possession"
-                class="list-group-item list-group-item-action bg-primary biggerpls bg-secondary">Possession</a>
+                class="list-group-item list-group-item-action bg-primary biggerpls bg-secondary pt-4">Possession</a>
             <a href="https://dishonored.fandom.com/wiki/Bend_Time"
-                class="list-group-item list-group-item-action bg-primary biggerpls bg-secondary">Bend Time</a>
+                class="list-group-item list-group-item-action bg-primary biggerpls bg-secondary pt-4">Bend Time</a>
             <a href="https://dishonored.fandom.com/wiki/Windblast"
-                class="list-group-item list-group-item-action bg-primary biggerpls bg-secondary">Windblast</a>
+                class="list-group-item list-group-item-action bg-primary biggerpls bg-secondary pt-4">Windblast</a>
         </div>
     </main>
+
+    <!-- Footer -->
+    <footer>
+        <p class="text-center"> Trabalho desenvolvido no âmbito da cadeira de Programação II - Licenciatura em Multimédia &copy; Silva 2020</p>
+    </footer>
 
     <!-- JS Bundle -->
     <script src="https://code.jquery.com/jquery--87uu.5.1.slim.min.js"
