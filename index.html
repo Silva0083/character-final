@@ -34,28 +34,23 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-primary">
         <a class="navbar-brand" href="#">Corvo</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-              </li>
+          <ul class="navbar-nav">
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Sobre
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#origem">Origem</a>
-                  <a class="dropdown-item" href="#dis1">Dishonored</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#dis2">Dishonored 2</a>
+                <div class="dropdown-menu bg-primary" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item bg-primary bg-secondary" href="#origem">Origem</a>
+                  <a class="dropdown-item bg-primary bg-secondary" href="#dis1">Dishonored</a>
+                  <a class="dropdown-item bg-primary bg-secondary" href="#dis2">Dishonored 2</a>
                 </div>
-              </li>
             <li class="nav-item">
               <a class="nav-link" href="#person">Personalidade</a>
             </li>
@@ -183,17 +178,17 @@
         <!-- Butões -->
         <div class="list-group text-center">
             <a href="https://dishonored.fandom.com/wiki/Blink"
-                class="list-group-item list-group-item-action bg-primary biggerpls bg-secondary pt-4"> Blink</a>
+                class="list-group-item list-group-item-action bg-primary biggerpls bg-secondary pt-4" target="_blank"> Blink</a>
             <a href="https://dishonored.fandom.com/wiki/Dark_Vision"
-                class="list-group-item list-group-item-action bg-primary biggerpls bg-secondary pt-4">Dark Vision</a>
+                class="list-group-item list-group-item-action bg-primary biggerpls bg-secondary pt-4" target="_blank">Dark Vision</a>
             <a href="https://dishonored.fandom.com/wiki/Devouring_Swarm"
-                class="list-group-item list-group-item-action bg-primary biggerpls bg-secondary pt-4"> Devouring Swarm </a>
+                class="list-group-item list-group-item-action bg-primary biggerpls bg-secondary pt-4" target="_blank"> Devouring Swarm </a>
             <a href="https://dishonored.fandom.com/wiki/Possession"
-                class="list-group-item list-group-item-action bg-primary biggerpls bg-secondary pt-4">Possession</a>
+                class="list-group-item list-group-item-action bg-primary biggerpls bg-secondary pt-4" target="_blank">Possession</a>
             <a href="https://dishonored.fandom.com/wiki/Bend_Time"
-                class="list-group-item list-group-item-action bg-primary biggerpls bg-secondary pt-4">Bend Time</a>
+                class="list-group-item list-group-item-action bg-primary biggerpls bg-secondary pt-4" target="_blank">Bend Time</a>
             <a href="https://dishonored.fandom.com/wiki/Windblast"
-                class="list-group-item list-group-item-action bg-primary biggerpls bg-secondary pt-4">Windblast</a>
+                class="list-group-item list-group-item-action bg-primary biggerpls bg-secondary pt-4" target="_blank">Windblast</a>
         </div>
     </main>
 
@@ -203,12 +198,9 @@
     </footer>
 
     <!-- JS Bundle -->
-    <script src="https://code.jquery.com/jquery--87uu.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 
 </html>

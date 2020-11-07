@@ -50,3 +50,6 @@ footer p{
     border-top: 2px solid rgb(179, 179, 179);
     padding-top: 30px;
 }
+h1{
+    padding-top: 55px; margin-top: -55px
+}
