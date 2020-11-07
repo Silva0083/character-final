@@ -4,10 +4,6 @@
 h1, li, a{
     font-family: "vanHelsing", "Arvo";
 }
-p, td, .simple{
-    font-family: "nexaLight";
-    font-size: 20px;
-}
 h1, p, td, a{
     color: rgb(179, 179, 179) !important;
 }
@@ -33,9 +29,15 @@ td{
     font-size: 35px;
 }
 p{
+    font-family: "nexaLight";
+    font-size: 20px;
     text-align: justify;
     text-justify: inter-word;
 }
 a:hover{
     color: white !important;
+}
+.simple, td{
+    font-family: "nexaLight";
+    font-size: 16px;
 }
