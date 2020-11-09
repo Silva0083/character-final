@@ -1,7 +1,7 @@
 .bg-primary{
     background-color: #000600 !important;
 }
-h1, li, a{
+h1, a, .fancy{
     font-family: "vanHelsing", "Arvo";
 }
 h1, p, td, a{
@@ -37,7 +37,7 @@ p{
 a:hover{
     color: white !important;
 }
-.simple, td{
+li, td{
     font-family: "nexaLight";
     font-size: 20px;
 }
