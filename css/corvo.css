@@ -28,7 +28,7 @@ td{
 .biggerpls{
     font-size: 35px;
 }
-p{
+p, .simple{
     font-family: "nexaLight";
     font-size: 20px;
     text-align: justify;
@@ -94,5 +94,10 @@ nav{
     a:hover, a.active{
         background-color: none;
         color: rgb(179, 179, 179);
+    }
+}
+@media (min-width: 100px){
+   .notyou{
+        display: initial;
     }
 }
