@@ -55,4 +55,5 @@ h1{
 }
 .navbar-toggler{
     background-color: rgb(179, 179, 179);
+    font-size: 15px !important;
 }
