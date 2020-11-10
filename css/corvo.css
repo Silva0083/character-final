@@ -61,7 +61,7 @@ h1{
     padding: 20px 5px 30PX;
 }
 @media (max-width: 600px){
-    .fix{
+    .fixit{
         font-size: 12px;
     }
 }
