@@ -53,3 +53,6 @@ footer p{
 h1{
     padding-top: 80px; margin-top: -80px
 }
+.navbar-toggler{
+    background-color: rgb(179, 179, 179);
+}
