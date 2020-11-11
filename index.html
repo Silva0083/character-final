@@ -44,8 +44,16 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link fancy" href="#sobre">Sobre</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle fancy" href="" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Sobre
+                    </a>
+                    <div class="dropdown-menu bg-primary bg-secondary" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item fancy bg-primary bg-secondary" href="#origem">Origem</a>
+                        <a class="dropdown-item fancy bg-primary bg-secondary" href="#dis1">Dishonored</a>
+                        <a class="dropdown-item fancy bg-primary bg-secondary" href="#dis2">Dishonored 2</a>
+                    </div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link fancy" href="#person">Personalidade</a>
@@ -72,19 +80,19 @@
     <!-- Texto principal -->
     <main class="container bg-primary">
         <h1 class="biggest" id='sobre'> Sobre </h1>
-        <h1> Origem </h1>
+        <h1  id='origem'> Origem </h1>
         <p>
             Corvo nasceu em Sarkonos e quando adolescente viajou para Dunwall, a capital do Império das Ilhas. Aí
             tornou-se o Royal Protector da Imperatriz Jessamine.
         </p>
-        <h1> Dishonored </h1>
+        <h1  id='dis1'> Dishonored </h1>
         <p>
             Corvo Attano é o protagonista do primeiro jogo. O Royal Protector volta a Dunwall após procurar por uma cura
             para a praga de ratos que assombra a capital, sem sucesso. Aí vê Jessamine a ser assassinada e Emily
             raptada. Culpado por esses crimes, Corvo tem de fugir da prisão, encontrar Emily, colocá-la no trono e
             restaurar a sua honra.
         </p>
-        <h1> Dishonored 2 </h1>
+        <h1  id='dis2'> Dishonored 2 </h1>
         <p>
             No segundo jogo da série é possível jogar com o Corvo ou com Emily. Se escolhermos jogar com o Corvo o nosso
             objetivo é quebrar a maldição sobre Emily e retirar a usurpadora Delilah do trono.
@@ -179,13 +187,15 @@
         <!-- Butões -->
         <div class="list-group text-center">
             <a href="https://dishonored.fandom.com/wiki/Blink"
-                class="list-group-item list-group-item-action bg-primary biggerpls bg-secondary pt-4 fancy" target="_blank">
+                class="list-group-item list-group-item-action bg-primary biggerpls bg-secondary pt-4 fancy"
+                target="_blank">
                 Blink</a>
             <a href="https://dishonored.fandom.com/wiki/Dark_Vision"
                 class="list-group-item list-group-item-action bg-primary biggerpls bg-secondary pt-4 fancy"
                 target="_blank">Dark Vision</a>
             <a href="https://dishonored.fandom.com/wiki/Devouring_Swarm"
-                class="list-group-item list-group-item-action bg-primary biggerpls bg-secondary pt-4 fancy" target="_blank">
+                class="list-group-item list-group-item-action bg-primary biggerpls bg-secondary pt-4 fancy"
+                target="_blank">
                 Devouring Swarm </a>
             <a href="https://dishonored.fandom.com/wiki/Possession"
                 class="list-group-item list-group-item-action bg-primary biggerpls bg-secondary pt-4 fancy"
